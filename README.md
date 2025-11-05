@@ -56,7 +56,8 @@ sudo chmod 660 /var/run/docker.sock
 ```
 git clone https://github.com/os-vector/wire-os --recurse-submodules
 cd wire-os
-./build/build.sh -bt <dev/oskr> -bp <boot-passwd> -v <build-increment>
+./build/build.sh -bt dev -v <build-increment>
+# build-increment can be any number you want. it will be the final number of the OTA: 3.0.1.<incrememnt>.ota
 ```
 
 ### Build on bare metal
@@ -84,7 +85,8 @@ sudo apt-get install -y sudo build-essential chrpath cpio debianutils \
 ```
 git clone https://github.com/os-vector/wire-os --recurse-submodules
 cd wire-os
-./build/build.sh -nd -bt <dev/oskr> -bp <boot-passwd> -v <build-increment>
+./build/build.sh -nd -bt dev -v <build-increment>
+# build-increment can be any number you want. it will be the final number of the OTA: 3.0.1.<incrememnt>.ota
 ```
 
 ### Where is my OTA?
