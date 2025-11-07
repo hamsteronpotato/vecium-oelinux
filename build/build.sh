@@ -156,6 +156,11 @@ if [[ ! $BUILD_INCREMENT =~ ^-?[0000-9999]+$ ]]; then
     usage "Build increment is not an int between 0-9999."
 fi
 
+if [[ "${NO_DOCKER}" != "1" && "$(uname -a)" == *"aarch64" ]]; then
+    errorMsg "Docker building does not work on aarch64. Follow the steps for building on bare metal."
+    exit 1
+fi
+
 echo "All checks passed. Building."
 
 mkdir -p build/cache
