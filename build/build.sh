@@ -20,7 +20,7 @@ function usage() {
     exit 1
 }
 
-if [[ ! "$(uname -a)" == *"Linux"* ]] || [[ ! "$(uname -a)" == *"x86_64"* && "$(uname -a)" != "aarch64" ]]; then
+if [[ ! "$(uname -a)" == *"Linux"* ]] || [[ ! "$(uname -a)" == *"x86_64"* && ! "$(uname -a)" == *"aarch64"* ]]; then
 	echo "This is not x86_64/amd64 or aarch64/arm64 Linux. Exiting."
 	exit 1
 fi
