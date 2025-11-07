@@ -29,6 +29,8 @@ This is based off of the leaked [vicos-oelinux](https://github.com/kercre123/vic
 
 WireOS is in the dropdown box in [https://devsetup.froggitti.net/](https://devsetup.froggitti.net/). Put your unlocked bot into recovery mode (hold the button for 15 seconds on the charger), head to the site, choose wireOS, then go through the process.
 
+The actual latest dev OTA is available here: [http://ota.pvic.xyz/vic/latest/dev.ota](http://ota.pvic.xyz/vic/latest/dev.ota)
+
 ## Build
 
 - WireOS must be built on Linux, either x86_64 or aarch64.
