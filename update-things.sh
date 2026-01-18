@@ -8,5 +8,5 @@ cd ../../vic-cloudless
 git pull origin main
 cd ../wired
 git pull origin main
-cd poky/victor/meta-vicos-mods/recipes-extended/purplpkg
+cd ../../external/purplpkg
 git pull origin main
