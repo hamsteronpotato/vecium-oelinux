@@ -18,7 +18,7 @@ This is based off of the leaked [vicos-oelinux](https://github.com/kercre123/vic
 
 ## Prebuilt OTA
 
-WireOS is in the dropdown box in [https://devsetup.froggitti.net/](https://devsetup.froggitti.net/). Put your unlocked bot into recovery mode (hold the button for 15 seconds on the charger), head to the site, choose wireOS, then go through the process.
+WireOS is in the Custom Firmware category of [https://websetup.froggitti.net/](https://websetup.froggitti.net/). Put your unlocked bot into recovery mode (hold the button for 15 seconds on the charger), head to the site, choose the Custom Firmware stack, connect to the bot, choose WireOS, then go through the process.
 
 The actual latest dev OTA is available here: [http://ota.pvic.xyz/vic/latest/dev.ota](http://ota.pvic.xyz/vic/latest/dev.ota)
 
